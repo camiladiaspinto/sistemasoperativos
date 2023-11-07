@@ -1,0 +1,12 @@
+AULA 17/10/2023
+
+-Acabar pergunta 3 e 4. 
+
+Processo pai, que cria o processo filho com fork(), criando assim um processo paralelo. 
+
+int main(){ 
+    printf("ola")
+    pid=fork()
+    printf("%d\n, pid)
+    return 0
+}---- isto retorna o pid de ambos 

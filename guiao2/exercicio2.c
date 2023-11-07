@@ -5,7 +5,7 @@
 
 int main(int argc, char const *argv[]) {
     pid_t pid;
-    if((pid = fork()) == 0) { // create child process from suggar daddy
+    if((pid = fork()) == 0) { // create child process from dad
         pid_t childPID = getpid();
         pid_t childPPID = getppid();
         printf("Child PID = %d\nChild PPID = %d\n", childPID, childPPID);
